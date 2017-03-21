@@ -1,0 +1,21 @@
+
+article{
+    background: #d9fff5;
+    margin: 20px;
+    display: inline-block;
+    box-shadow: 10px 10px 10px #d9fff5;
+    padding: 10px;
+}
+
+article img{
+    width: 250px;
+    height: 250px;
+    margin-left: 20px;
+    border-radius: 100%;
+}
+article p{
+    width: 60%;
+    display: inline-block;
+    margin-left: 30px;
+    vertical-align: top;
+}

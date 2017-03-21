@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="css/navigation.css" type="text/css" charset="utf-8">
+    <link rel="stylesheet" href="css/teachers.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/typography.css">
+    <link rel="stylesheet" href="css/contacts.css">
+</head>
+<body>
+
+<div class="header">
+    <div class="wrapper">
+
+        <div class="corner">
+            <h1>SoftUni animals</h1>
+            <p>Станете програмисти  и ще имате храна за цял живот! (Наков)</p>
+
+            <div class="search">
+                <input type="search" placeholder="Search">
+                <i class="fa fa-search" aria-hidden="true"></i>
+            </div>
+            <a href="profile.html">Вход</a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li>
+                    <a href="#">Софтуни</a>
+                    <ul class="second-ul">
+                        <li><a href="#">За СофтУни</a>
+                            <ul>
+                                <li><a href="About-history.html">Наша история</a></li>
+                                <li><a href="teachers.html">Преподаватели</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Учебен план</a>
+
+                        </li>
+                        <li><a href="#">Сертификати</a></li>
+                        <li><a href="#">Такси за обучение</a></li>
+
+                    </ul>
+                </li>
+                <li><a href="#">Обучения</a></li>
+                <li><a href="#">Партньори</a></li>
+                <li><a href="#">Блог</a></li>
+                <li><a href="#">Контакти</a></li>
+
+            </ul>
+        </nav>
+    </div>
+</div>
+
+<main>
+    <h1 class="contact-h1">Намерете ни</h1>
+    <div class="contact-ifo">
+        <h2>София, кв. Изгрев, ул. "Тинтява" 15-17, етаж 1</h2>
+        <p>Работно време:</p>
+        <p>10:00 - 20:00 (Понеделник - Петък)</p>
+        <p>09:00 - 18:00 (Събота и Неделя)</p>
+        <p>Телефон:</p>
+        <p>+359 899 55 55 92</p>
+        <p>Пощенски код:</p>
+        <p>1113</p>
+        <p>Имейл:</p>
+        <a href="#">info@bbv.bg</a>
+    </div>
+
+
+
+    <div id="map">
+
+    <script>
+        function myMap() {
+            var myCenter = new google.maps.LatLng(42.666664, 23.351225);
+            var mapCanvas = document.getElementById("map");
+            var mapOptions = {center: myCenter, zoom: 16};
+            var map = new google.maps.Map(mapCanvas, mapOptions);
+            var marker = new google.maps.Marker({position:myCenter});
+            marker.setMap(map);
+        }
+
+    </script>
+    </div>
+
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDXfSQfplvkTAUDC5YMpF2mecJs6ePlaK4&callback=myMap"></script>
+    <h1 class="contact-h1">Пишете ни</h1>
+    <div class="contact-form">
+        <div class="contact-div">
+            <label for="taitle">Заглавие</label>
+                <br>
+                <input class="contact-input" type="text" id="taitle" placeholder="Заглавие">
+            </div>
+            <br>
+            <div class="contact-div">
+            <label>
+                Имейл адрес<br>
+                <input class="contact-input" type="email" placeholder="Имейл адрес" required/>
+            </label>
+            </div>
+            <br>
+    </div>
+
+    <div class="contact-div-textarea">
+        <label>
+            Съдържание<br>
+            <textarea class="contact-textarea" name="" id="" cols="30" rows="10" placeholder="Съдържание"></textarea>
+        </label>
+    </div>
+    <div>
+        <button class="contact-send">Изпрати</button>
+    </div>
+</main>
+    <div class="footer">
+        <div class="wrapper">
+            <p>All rights not reserved &copy; 2022</p>
+        </div>
+    </div>
+</body>
+    </html>

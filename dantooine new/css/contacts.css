@@ -1,0 +1,100 @@
+body{
+}
+.contact-h1{
+    padding: 10px;
+    text-align: center;
+    background: #6466c6;
+    color: white;
+}
+.contact-ifo{
+    width: 30%;
+    background: #d9fff5;
+    display: inline-block;
+    padding: 15px;
+}
+
+#map{
+    display: inline-block;
+    vertical-align: top;
+    width:65%;
+    height:475px;
+    z-index: 1;
+}
+
+
+.contact-form{
+    width: 40%;
+    display: inline-block;
+    margin: 0;
+    vertical-align: top;
+}
+.contact-form label{
+    font-size: 20px;
+}
+
+.contact-div{
+    margin: 25px;
+}
+
+.contact-div-textarea{
+    margin: 10px;
+    width: 40%;
+    display: inline-block;
+}
+.contact-div-textarea label{
+    font-size: 20px;
+}
+
+.contact-input{
+    width: 80%;
+    padding: 15px;
+    border-radius: 8px;
+    outline-color:  #333333;
+
+}
+.contact-textarea{
+    width: 80%;
+    border-radius: 8px;
+    padding: 15px;
+    resize: none;
+    outline-color:  #333333;
+}
+
+.contact-send{
+    padding: 15px;
+    width: 30%;
+    border-radius: 10px;
+    background:  #6466c6;
+    color: white;
+    font-size: 20px;
+    margin: 30px;
+
+}
+.contact-send:hover{
+    cursor: pointer;
+    background: #1a1b4e;
+}
+
+@media all and (max-width: 660px) {
+    .contact-ifo {
+        display: block;
+        width: 100%;
+        padding: 0;
+    }
+
+    #map {
+        width: 100%;
+        display: block;
+    }
+
+    .contact-form {
+        width: 100%;
+    }
+
+    .contact-div-textarea {
+        width: 100%;
+    }
+    .contact-send{
+        width: 80%;
+    }
+}

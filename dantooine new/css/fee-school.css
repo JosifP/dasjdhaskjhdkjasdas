@@ -1,0 +1,141 @@
+.main{
+    background: none;
+}
+
+.fee-section{
+    width: 50%;
+    margin: 50px auto;
+    min-width: 600px;
+}
+.fee-regularly{
+    background: #6466c6;
+    width: 100%;
+    padding: 10px;
+    color: white;
+    border-top-left-radius: 10px;
+    border-bottom: 3px solid white;
+    margin-bottom: 2px;
+
+
+}
+.fee-absentia{
+    background: #6466c6;
+    width: 100%;
+    padding: 10px;
+    color: white;
+    border-bottom-left-radius: 10px;
+}
+.fee-left{
+    width: 40%;
+    display: inline-block;
+
+}
+.fee-right{
+    display: inline-block;
+    background: #d9fff5;
+    width: 50%;
+    line-height: 7px;
+    vertical-align: top;
+    text-align: center;
+    margin: 0;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.fee-title{
+    width: 100%;
+}
+
+.fee-div-button{
+    display: block;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.fee-button{
+    padding: 20px 50px;
+    font-size: 20px;
+    border-radius: 10px;
+    margin: 0 auto;
+    display: inline-block;
+    outline: none;
+    background: #6466c6;
+    color: white;
+    text-align: center;
+}
+
+.fee-button:hover{
+    cursor: pointer;
+    background: #1a1b4e;
+    color: white;
+}
+
+.empty{
+    width: 70%;
+}
+
+.inside{
+    text-align: center;
+    background: #ffd080;
+    height: 40px;
+    border-left: none;
+    border-right: none;
+    font-size: 1em;
+}
+
+.inside:nth-child(even){
+    text-align: center;
+    background: #ffd080;
+    height: 40px;
+    border-left: none;
+    border-right: none;
+
+}
+
+.outside{
+    text-align: center;
+    background: rgba(174, 186, 255, 0.31);
+    height: 40px;
+    font-size: 1em;
+
+}
+
+.outside:nth-child(odd){
+    text-align: center;
+    background: rgba(174, 186, 255, 0.31);
+    height: 40px;
+
+}
+
+table{
+    border-top: none;
+    width: 80%;
+    margin: 80px auto;
+    border-left: none;
+}
+
+td{
+    padding: 10px;
+    border-right: none;
+    color: black;
+    background: silver;
+    font-size: 12px;
+
+}
+tr{
+    background: white;
+}
+.fa .fa-search{
+    background: transparent;
+}
+
+table .fa{
+    width: 30px;
+    height: 30px;
+    background: #6bc4ff;
+    border-radius: 100%;
+    line-height: 30px;
+    color: white;
+}
+
+
+

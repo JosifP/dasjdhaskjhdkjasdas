@@ -1,0 +1,170 @@
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+@import "https://fonts.googleapis.com/css?family=Griffy";
+
+body{
+}
+
+.left-side{
+    width: 20%;
+    background: #6466c6;
+    height: 100%;
+    min-width: 230px;
+    display: inline-block;
+    float: left;
+    border-right: 7px solid #4ca1c6;
+}
+.left-side-img{
+    text-align: center;
+    margin: 0 auto;
+    display: inline-block;
+
+}
+img{
+    margin-top: 35%;
+    width: 60%;
+    height: 60%;
+    border-radius: 100% ;
+    box-shadow: 0 0 20px #70e9ff;
+    border: 6px solid #4ca1c6;
+
+
+}
+.profile-name{
+    font-family: "Griffy", sans-serif;
+    text-align: center;
+    color: white;
+}
+
+.profile-opisanie{
+    text-align: center;
+    font-family: "Griffy", sans-serif;
+}
+
+.profile-expiriance{
+    text-align: center;
+    font-family: "Griffy", sans-serif;
+}
+
+.icons{
+    width: 70%;
+    margin: 10px auto;
+    display: block;
+}
+
+a{
+    text-decoration: none;
+    margin: 5px;
+    color: white;
+    font-weight: bolder;
+}
+
+.fa{
+    margin: 10px;
+    width: 30px;
+    height: 30px;
+    background: #EEEEEE;
+    border-radius: 100%;
+    text-align: center;
+    line-height: 30px;
+    color: blue;
+}
+
+.fa-facebook{
+    background: blue;
+    color: white;
+}
+.fa-google-plus{
+    background: red;
+    color: white;
+}
+
+.fa-instagram {
+    background: -webkit-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    color: white;
+}
+
+@media all and (max-width: 660px){
+
+    .left-side{
+        width: 100%;
+
+    }
+    .left-side img{
+        margin: 30px auto;
+    }
+
+    .left-side .fa{
+        margin-left: 30%;
+    }
+    .top-side{
+        width: 20%;
+        display: block;
+    }
+
+    .for-me{
+        width: 100%;
+        display: block;
+    }
+    .left-side-img{
+        display: block;
+        width: 50%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .profil-info{
+        width: 100%;
+        display: block;
+    }
+
+}
+
+.top-side{
+    width: 100%;
+    height: 50px;
+    background: #6466c6;
+    display: inline-block;
+    float: right;
+}
+
+.top-side a{
+    float: right;
+    margin-right: 40px;
+    margin-top: 2px;
+    padding: 10px;
+    font-size: 20px;
+    border: 2px solid white;
+    border-radius: 6px;
+
+}
+
+.for-me{
+    background: #d9fff5;
+    width: 60%;
+    position: relative;
+    display: inline-block;
+    margin: 50px;
+    box-shadow: 10px 10px 10px #d9fff5;
+    color: grey;
+
+}
+
+.for-me h1{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+.profil-info{
+    background: #d9fff5;
+    width: 60%;
+    position: relative;
+    display: inline-block;
+    margin-left: 50px;
+    box-shadow: 10px 10px 10px #d9fff5;
+    color: grey;
+    min-width: 230px;
+}
+
+.profil-info p span{
+    color: red;
+}
